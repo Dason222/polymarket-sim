@@ -1,0 +1,17 @@
+# Secrets / config
+.env
+!.env.example
+*wallet*
+
+# Data & artifacts
+*.json
+*.log
+*.db*
+*.joblib
+*.pkl
+*.bak*
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
